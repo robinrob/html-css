@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title> - jsFiddle demo</title>
+  <title>Inline vs. Block Layout Demo</title>
 
   <script type='text/javascript' src='http://code.jquery.com/jquery-git2.js'></script>
 
@@ -30,9 +30,6 @@
     span {
       display: inline;
       background-color: #c06808;
-      opacity: 50%;
-      padding-right: 0.1em;
-      padding-left: 0.1em;
     }
 
     #title-box {
@@ -50,7 +47,12 @@
       margin-right: auto;
     }
 
-    
+    p {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      font-size: 35px;
+    }
   </style>
 
 
